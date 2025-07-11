@@ -1,0 +1,102 @@
+🖼️:Langkah 4: Ganti Wallpaper di Tiny XFCE
+
+1.Klik kanan di area kosong desktop
+
+2.Pilih Desktop Settings (atau klik icon gear di pojok)
+
+3.Di tab Background, pilih:
+
+  Folder: ubah ke /usr/share/backgrounds/ atau pilih sendiri
+
+  Pilih gambar yang kamu suka
+
+  Klik Apply
+
+  💡 Kamu juga bisa menambahkan wallpaper custom ke direktori:
+
+             /home/tiny/Pictures
+
+🌓:Langkah 5: Ganti Tema XFCE (Dark Mode / Icon Pack)
+
+1.Buka menu aplikasi (pojok kiri bawah)
+
+2.Cari "Appearance"
+
+3.Ganti di bagian:
+
+Style: pilih tema seperti "Adwaita-dark"
+
+Icons: ubah icon pack (misal "Papirus", "Numix")
+
+Klik Apply
+
+Untuk tema tambahan, kamu bisa install paket:
+
+             sudo apt install arc-theme papirus-icon-theme -y
+
+🌐:Cara Install Browser di Tiny XFCE (Tanpa Ketik Manual)
+Buka Terminal di dalam desktop Tiny XFCE
+
+Ketik saja:
+
+             •tmoe
+
+bash
+Salin kode
+tmoe
+Pilih:
+ 
+           ➜ tools manager
+
+           ➜ manager
+
+           ➜ browser
+
+Pilih browser yang kamu mau, seperti:
+
+✅ Firefox
+
+✅ Midori
+
+✅ Brave
+
+✅ Chromium
+
+Tunggu proses install selesai otomatis
+
+💡 Tmoe adalah sistem GUI otomatis yang memudahkan kamu install software tanpa perlu hafal perintah!
+
+🎮 Cara Install Steam di Tiny Computer XFCE (via Terminal)
+
+🧰 SYARAT:
+1.Pastikan kamu sudah masuk desktop Tiny XFCE
+
+2.Buka terminal di dalam XFCE, lalu ikuti langkah berikut:
+
+🔧 LANGKAH-LANGKAH INSTALL:
+
+# 1. Update dan tambahkan arsitektur i386
+
+          sudo dpkg --add-architecture i386
+          sudo apt update && sudo apt upgrade -y
+
+# 2. Install semua dependency Steam
+
+        sudo apt install libgl1-mesa-dri:i386 libgl1-mesa-glx:i386 \
+        libc6:i386 libncurses5:i386 libstdc++6:i386 -y
+
+# 3. Install Steam
+
+        sudo apt install steam -y
+ 
+🚀 MENJALANKAN STEAM
+Setelah install selesai, jalankan:
+
+         steam
+
+❗ Kalau muncul error atau crash GUI, coba jalankan dengan software rendering:
+
+       LIBGL_ALWAYS_SOFTWARE=1 steam
+
+ # sebenarnya bisa sih yang gampang tinggal buka terminal ketik tmoe
+#  Pilih manager klik game ada steam juga tapi kadang suka eror
