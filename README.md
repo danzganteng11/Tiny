@@ -17,7 +17,6 @@ Klik tombol di bawah ini untuk langsung download aplikasi Tiny Computer XFCE ver
 | ✅ Termux (via F-Droid)    | [📥 Download Termux](https://f-droid.org/packages/com.termux/)                |
 | ✅ Tiny XFCE APK           | [📥 Download APK](https://github.com/danzganteng11/Tiny/releases/download/v1.0.24/Tiny-computer-xfce.apk) |
 | ⚙️ WPS Office (opsional)   | [📥 Download WPS .deb](https://github.com/wps-community)                      |
-| 🖥️ VNC Viewer (Play Store) | [📥 Download VNC Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android) |
 
 ---
 
